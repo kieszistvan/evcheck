@@ -1,0 +1,31 @@
+{
+  "name": "evcheck",
+  "version": "0.0.1",
+  "description": "Simple util to check if given environment variables are set. Calls back with error containing thoose which aren't.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kieszistvan@github.com/kieszistvan/evcheck.git"
+  },
+  "keywords": [
+    "environment",
+    "variables",
+    "safety"
+  ],
+  "author": "Istvan kiesz <kieszistvan@gmail.hu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kieszistvan/evcheck/issues"
+  },
+  "homepage": "https://github.com/kieszistvan/evcheck",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}

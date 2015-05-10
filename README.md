@@ -1,2 +1,2 @@
 # evcheck
-Small lib for checking environment variable existence. Exits process if variable is not set.
+Simple util to check if given environment variables are set. Calls back with error containing thoose which aren't.
