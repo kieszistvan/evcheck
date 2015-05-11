@@ -1,6 +1,6 @@
 {
   "name": "evcheck",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple util to check if given environment variables are set. Calls back with error containing thoose which aren't.",
   "main": "index.js",
   "scripts": {
